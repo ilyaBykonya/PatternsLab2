@@ -111,7 +111,7 @@ namespace Lab2
         static void Main(string[] argv)
         {
             {
-                var expression = new Composite.Addition(new DoubleNumber(5), new DoubleNumber(7));
+                var expression = new Addition(new DoubleNumber(5), new DoubleNumber(7));
                 Console.WriteLine($"Result => {expression.calculate()}");
             }
             {
